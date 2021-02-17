@@ -1,0 +1,5 @@
+1(b):
+The grammer provided in this problem might be ambiguous which can lead to doubler meanings. If you use mala and mala with reverse string then it can give you two meanings. First, in the instructions, they have just used the # formula to get the required grammer. However, it can also mean the parsing tree of a string, # sign and the reverse token with string so it may be ambiguous. 
+
+1(c):
+We could use another grammer to generate the same thing in differnet way. If we use the string and any letter we want in between and the reverse string after that letter(alphabet), it would be more easier rather than using # and raising the confusion with another string.
