@@ -1,0 +1,28 @@
+Task-1 (a):
+
+Regular expression: The names start with an and end with an as well
+
+BEGIN {
+i=0
+}
+
+/(^an[a-zA-Z].*an$)|(^an$)/{
+i++
+}
+
+END {
+print i
+}
+
+
+
+
+1(b):
+
+awk '{for(i=1;i<=NF;i++) a[$i]++}
+
+ END {
+for(k in a) print k,a[k]
+}' Rotfile
+
+an[a-zA-Z].*an$)|(^an$)

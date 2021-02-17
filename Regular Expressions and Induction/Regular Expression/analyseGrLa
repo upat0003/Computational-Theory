@@ -1,0 +1,9 @@
+sed 's/abab/ Greek/ g' Rootfile
+
+sed 's/-quir-/ Latin/ g' Rootfile
+
+sed 's/-oid/ Greek/ g' Rootfile
+
+END {
+Total= print(-wc)
+}
